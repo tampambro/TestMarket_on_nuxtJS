@@ -1,0 +1,39 @@
+//400
+@font-face {
+  font-family: PTSansRegular;
+  src: url("/fonts/PTSans-Regular.ttf");
+}
+
+//700
+@font-face {
+  font-family: PTSansBold;
+  src: url("/fonts/PTSans-Bold.ttf");
+}
+
+* {
+  font-family: PTSansRegular;
+}
+
+html {
+  overflow-x: hidden;
+  margin-right: calc(-1 * (100vw - 100%));
+}
+
+body {
+  margin: 0;
+}
+
+:root {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
