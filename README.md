@@ -1,20 +1,13 @@
 # test-for-ida
 
-## Build Setup
+## Instruktion for running the project
 
-```bash
-# install dependencies
-$ yarn install
+1. Install node;
+2. Install npm or yarn;
+3. Clone this repository on computer;
+4. In project folder run command line;
+5. In command line write: "npm install" or "yarn install";
+6. When all dependencies are setted, write: "npm run dev" or "yarn dev";
+7. Launch browser and past url: [http://localhost:3000](http://localhost:3000);
 
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+end
